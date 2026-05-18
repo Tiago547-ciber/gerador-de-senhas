@@ -30,8 +30,8 @@ function Login() {
     var a = document.getElementById('login').value;
     var b = document.getElementById('senha').value;
     var dados = {
-      login: 'Doralice',
-      senha: 220522
+      login: '',
+      senha: 
     };
     if (dados.login == a  && dados.senha == b) {
       navigate('/App');
